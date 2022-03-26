@@ -8,7 +8,9 @@ on:
       - '**/*.gitattributes'
   pull_request:
   release:
-    types: [published]  
+    types: [published]
+  schedule:
+    - cron: '0 3 * * *'
 jobs:
   format:
     runs-on: ubuntu-latest
