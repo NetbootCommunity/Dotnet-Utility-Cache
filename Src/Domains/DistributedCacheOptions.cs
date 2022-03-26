@@ -2,24 +2,25 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace MicroAutomation.Cache.Domains;
-
-public class DistributedCacheOptions
+namespace Netboot.Cache.Domains
 {
-    public DistributedCacheOptions()
+    public class DistributedCacheOptions
     {
-        var options = new JsonSerializerOptions()
+        public DistributedCacheOptions()
         {
-            MaxDepth = 0,
-            IgnoreReadOnlyProperties = true,
-            DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
-            ReferenceHandler = ReferenceHandler.Preserve
-        };
+            var options = new JsonSerializerOptions()
+            {
+                MaxDepth = 0,
+                IgnoreReadOnlyProperties = true,
+                DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
+                ReferenceHandler = ReferenceHandler.Preserve
+            };
 
-        Serializer = payload => JsonSerializer.SerializeToUtf8Bytes(payload, options);
-        Deserializer = (bytes, type) => JsonSerializer.Deserialize(bytes, type, options);
+            Serializer = payload => JsonSerializer.SerializeToUtf8Bytes(payload, options);
+            Deserializer = (bytes, type) => JsonSerializer.Deserialize(bytes, type, options);
+        }
+
+        internal Func<object, byte[]> Serializer { get; set; }
+        internal Func<byte[], Type, object> Deserializer { get; set; }
     }
-
-    internal Func<object, byte[]> Serializer { get; set; }
-    internal Func<byte[], Type, object> Deserializer { get; set; }
 }

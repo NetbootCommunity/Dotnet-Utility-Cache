@@ -1,4 +1,4 @@
-# Netboot - Cache [![Build](https://github.com/NetbootCommunity/Netboot-Cache/actions/workflows/build.yml/badge.svg)](https://github.com/NetbootCommunity/Netboot-Cache/actions/workflows/build.yml)
+# Netboot - Cache [![Build](https://github.com/NetbootCommunity/Netboot-Cache/actions/workflows/build.yml/badge.svg)](https://github.com/NetbootCommunity/Netboot-Cache/actions/workflows/build.yml) [![NuGet Version](http://img.shields.io/nuget/v/Netboot.Cache.svg?style=flat)](https://www.nuget.org/packages/Netboot.Cache/)  [![Reliability Rating](https://sonarqube.netboot.fr/api/project_badges/measure?project=netboot_cache&metric=reliability_rating)](https://sonarqube.netboot.fr/dashboard?id=netboot_cache) [![Security Rating](https://sonarqube.netboot.fr/api/project_badges/measure?project=netboot_cache&metric=security_rating)](https://sonarqube.netboot.fr/dashboard?id=netboot_cache)  [![Code Smells](https://sonarqube.netboot.fr/api/project_badges/measure?project=netboot_cache&metric=code_smells)](https://sonarqube.netboot.fr/dashboard?id=netboot_cache)
 
 ## Please show the value
 

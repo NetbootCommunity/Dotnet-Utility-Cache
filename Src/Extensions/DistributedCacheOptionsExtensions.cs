@@ -1,22 +1,19 @@
-﻿using MicroAutomation.Cache.Domains;
+﻿using Netboot.Cache.Domains;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace MicroAutomation.Cache.Extensions;
-
-public static class DistributedCacheOptionsExtensions
+namespace Netboot.Cache.Extensions
 {
-    public static DistributedCacheOptions UseSerialization(
-        this DistributedCacheOptions options,
-        Func<object, byte[]> serializer,
-        Func<byte[], Type, object> deserializer)
+    public static class DistributedCacheOptionsExtensions
     {
-        options.Serializer = serializer;
-        options.Deserializer = deserializer;
+        public static DistributedCacheOptions UseSerialization(
+            this DistributedCacheOptions options,
+            Func<object, byte[]> serializer,
+            Func<byte[], Type, object> deserializer)
+        {
+            options.Serializer = serializer;
+            options.Deserializer = deserializer;
 
-        return options;
+            return options;
+        }
     }
 }
