@@ -12,7 +12,7 @@
     <RepositoryUrl>https://github.com/NetbootCommunity/Netboot-Cache</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <Copyright>Thomas ILLIET, NetbootCommunity contributors</Copyright>
-    <PackageTags>utility library log microservice dotnet serilog</PackageTags>
+    <PackageTags>utility library cache microservice dotnet</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <TargetFramework>net6.0</TargetFramework>
     <IncludeSymbols>true</IncludeSymbols>
