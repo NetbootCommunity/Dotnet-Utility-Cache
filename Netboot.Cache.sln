@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netboot.Cache", "Src\Netboot.Cache.csproj", "{3C0264FD-DA03-4418-997E-8B98ED74EEF9}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netboot.Cache.Tests", "Tests\Netboot.Cache.Tests.csproj", "{AE2D7949-78F8-4028-A6A4-70F5835D1D57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3C0264FD-DA03-4418-997E-8B98ED74EEF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C0264FD-DA03-4418-997E-8B98ED74EEF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C0264FD-DA03-4418-997E-8B98ED74EEF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE2D7949-78F8-4028-A6A4-70F5835D1D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE2D7949-78F8-4028-A6A4-70F5835D1D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE2D7949-78F8-4028-A6A4-70F5835D1D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE2D7949-78F8-4028-A6A4-70F5835D1D57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
