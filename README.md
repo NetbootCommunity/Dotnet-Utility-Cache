@@ -1,5 +1,7 @@
 # Netboot - Cache [![Build](https://github.com/NetbootCommunity/Netboot-Cache/actions/workflows/build.yml/badge.svg)](https://github.com/NetbootCommunity/Netboot-Cache/actions/workflows/build.yml) [![NuGet Version](http://img.shields.io/nuget/v/Netboot.Cache.svg?style=flat)](https://www.nuget.org/packages/Netboot.Cache/)  [![Reliability Rating](https://sonarqube.netboot.fr/api/project_badges/measure?project=netboot_cache&metric=reliability_rating)](https://sonarqube.netboot.fr/dashboard?id=netboot_cache) [![Security Rating](https://sonarqube.netboot.fr/api/project_badges/measure?project=netboot_cache&metric=security_rating)](https://sonarqube.netboot.fr/dashboard?id=netboot_cache)  [![Code Smells](https://sonarqube.netboot.fr/api/project_badges/measure?project=netboot_cache&metric=code_smells)](https://sonarqube.netboot.fr/dashboard?id=netboot_cache)
 
+Simple and powerful strongly typed read-through caching extensions for .NET's IDistributedCache.
+
 ## Please show the value
 
 Choosing a project dependency could be difficult. We need to ensure stability and maintainability of our projects.
@@ -15,6 +17,30 @@ Please consider sponsoring to give me an extra motivational push to develop the 
 
 > If you represent a company, want to help the entire community and show that you care, please consider sponsoring using one of the higher tiers.
 Your company logo will be shown here for all developers, building a strong positive relation.
+
+## Installation
+
+The library is available as a nuget package. You can install it as any other nuget package from your IDE, try to search by `Netboot.Cache`. You can find package details [on this webpage](https://www.nuget.org/packages/Netboot.Cache).
+
+```xml
+// Package Manager
+Install-Package Netboot.Cache
+
+// .NET CLI
+dotnet add package Netboot.Cache
+
+// Package reference in .csproj file
+<PackageReference Include="Netboot.Cache" Version="6.1.0" />
+```
+
+## Configuration
+
+To use this package, add the following line to have this implementation with a distributed memory cache.
+
+```csharp
+services.AddDistributedCache()
+    .AddDistributedMemoryCache();
+```
 
 ## How to Contribute
 
