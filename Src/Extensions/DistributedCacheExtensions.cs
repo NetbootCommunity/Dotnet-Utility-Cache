@@ -16,34 +16,6 @@ namespace Netboot.Cache.Extensions
         /// Adds the distributed cache.
         /// </summary>
         /// <param name="services">The services.</param>
-        /// <param name="configuration">The configuration.</param>
-        /// <returns></returns>
-        public static IServiceCollection AddDistributedCache(this IServiceCollection services, IConfiguration configuration)
-        {
-            // Get cache configurations.
-            var cacheConfig = configuration.GetConnectionString("DistributedCache");
-
-            // Apply cache configurations.
-            if (!string.IsNullOrEmpty(cacheConfig))
-            {
-                services.AddDistributedCache()
-                    .AddStackExchangeRedisCache(options =>
-                    {
-                        options.Configuration = cacheConfig;
-                    });
-            }
-            else
-            {
-                services.AddDistributedCache()
-                    .AddDistributedMemoryCache();
-            }
-            return services;
-        }
-
-        /// <summary>
-        /// Adds the distributed cache.
-        /// </summary>
-        /// <param name="services">The services.</param>
         /// <param name="options">The options.</param>
         /// <returns></returns>
         public static IServiceCollection AddDistributedCache(this IServiceCollection services, Action<DistributedCacheOptions> options = null)
