@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Authors>Thomas ILLIET</Authors>
     <Company>NetbootCommunity</Company>
-    <PackageId>Netboot.Cache.Redis</PackageId>
+    <PackageId>Netboot.Cache.Memory</PackageId>
     <PackageDescription>Library to quickly and easily add cache to a dotnet application.</PackageDescription>
     <IsPackable>true</IsPackable>
     <PackageIcon>Logo.png</PackageIcon>
@@ -26,7 +26,7 @@
       <PackagePath></PackagePath>
     </None>
   </ItemGroup>
-  
+
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="6.0.1" />
   </ItemGroup>
