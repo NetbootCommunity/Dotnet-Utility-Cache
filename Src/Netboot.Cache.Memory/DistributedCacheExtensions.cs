@@ -13,7 +13,7 @@ namespace Netboot.Cache.Memory
         /// <param name="services">The services collection.</param>
         /// <param name="options">The distributed cache options.</param>
         /// <returns></returns>
-        public static IServiceCollection AddMemoryCache(this IServiceCollection services, Action<DistributedCacheOptions> options = null)
+        public static IServiceCollection AddTypedMemoryCache(this IServiceCollection services, Action<DistributedCacheOptions> options = null)
         {
             services.AddDistributedCache(options)
                 .AddDistributedMemoryCache();

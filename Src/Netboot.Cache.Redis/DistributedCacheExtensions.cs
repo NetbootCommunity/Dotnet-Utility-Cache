@@ -14,7 +14,7 @@ namespace Netboot.Cache.Redis
         /// <param name="services">The services collection.</param>
         /// <param name="options">The distributed cache options.</param>
         /// <returns></returns>
-        public static IServiceCollection AddMemoryCache(this IServiceCollection services, Action<RedisCacheOptions> redisOptions, Action<DistributedCacheOptions> options = null)
+        public static IServiceCollection AddTypedRedisCache(this IServiceCollection services, Action<RedisCacheOptions> redisOptions, Action<DistributedCacheOptions> options = null)
         {
             services.AddDistributedCache(options)
                 .AddStackExchangeRedisCache(redisOptions);
