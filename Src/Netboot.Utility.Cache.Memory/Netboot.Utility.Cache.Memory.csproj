@@ -1,9 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <Authors>Thomas ILLIET</Authors>
     <Company>NetbootCommunity</Company>
-    <PackageId>Netboot.Cache.Redis</PackageId>
+    <PackageId>Netboot.Utility.Cache.Memory</PackageId>
     <PackageDescription>Library to quickly and easily add cache to a dotnet application.</PackageDescription>
     <IsPackable>true</IsPackable>
     <PackageIcon>Logo.png</PackageIcon>
@@ -26,13 +26,13 @@
       <PackagePath></PackagePath>
     </None>
   </ItemGroup>
-  
+
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="6.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="6.0.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Netboot.Cache\Netboot.Cache.csproj" />
+    <ProjectReference Include="..\Netboot.Utility.Cache\Netboot.Utility.Cache.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,4 +1,4 @@
-# Netboot - Cache [![Build](https://github.com/NetbootCommunity/Netboot-Cache/actions/workflows/build.yml/badge.svg)](https://github.com/NetbootCommunity/Netboot-Cache/actions/workflows/build.yml) [![NuGet Version](http://img.shields.io/nuget/v/Netboot.Cache.svg?style=flat)](https://www.nuget.org/packages/Netboot.Cache/)  [![Reliability Rating](https://sonarqube.netboot.fr/api/project_badges/measure?project=netboot_cache&metric=reliability_rating)](https://sonarqube.netboot.fr/dashboard?id=netboot_cache) [![Security Rating](https://sonarqube.netboot.fr/api/project_badges/measure?project=netboot_cache&metric=security_rating)](https://sonarqube.netboot.fr/dashboard?id=netboot_cache)  [![Code Smells](https://sonarqube.netboot.fr/api/project_badges/measure?project=netboot_cache&metric=code_smells)](https://sonarqube.netboot.fr/dashboard?id=netboot_cache)
+# Netboot - Cache [![Build](https://github.com/NetbootCommunity/Netboot-Cache/actions/workflows/build.yml/badge.svg)](https://github.com/NetbootCommunity/Netboot-Cache/actions/workflows/build.yml) [![NuGet Version](http://img.shields.io/nuget/v/Netboot.Utility.Cache.svg?style=flat)](https://www.nuget.org/packages/Netboot.Utility.Cache/)  [![Reliability Rating](https://sonarqube.netboot.fr/api/project_badges/measure?project=netboot_cache&metric=reliability_rating)](https://sonarqube.netboot.fr/dashboard?id=netboot_cache) [![Security Rating](https://sonarqube.netboot.fr/api/project_badges/measure?project=netboot_cache&metric=security_rating)](https://sonarqube.netboot.fr/dashboard?id=netboot_cache)  [![Code Smells](https://sonarqube.netboot.fr/api/project_badges/measure?project=netboot_cache&metric=code_smells)](https://sonarqube.netboot.fr/dashboard?id=netboot_cache)
 
 Simple and powerful strongly typed read-through caching extensions for .NET's IDistributedCache.
 
@@ -20,17 +20,17 @@ Your company logo will be shown here for all developers, building a strong posit
 
 ## Installation
 
-The library is available as a nuget package. You can install it as any other nuget package from your IDE, try to search by `Netboot.Cache`. You can find package details [on this webpage](https://www.nuget.org/packages/Netboot.Cache).
+The library is available as a nuget package. You can install it as any other nuget package from your IDE, try to search by `Netboot.Utility.Cache`. You can find package details [on this webpage](https://www.nuget.org/packages/Netboot.Utility.Cache).
 
 ```xml
 // Package Manager
-Install-Package Netboot.Cache
+Install-Package Netboot.Utility.Cache
 
 // .NET CLI
-dotnet add package Netboot.Cache
+dotnet add package Netboot.Utility.Cache
 
 // Package reference in .csproj file
-<PackageReference Include="Netboot.Cache" Version="6.1.0" />
+<PackageReference Include="Netboot.Utility.Cache" Version="6.1.0" />
 ```
 
 ## Configuration
@@ -48,8 +48,8 @@ Everyone is welcome to contribute to this project! Feel free to contribute with 
 
 ## Bugs and Feedback
 
-For bugs, questions and discussions please use the [GitHub Issues](https://github.com/NetbootCommunity/Netboot-Cache/issues).
+For bugs, questions and discussions please use the [GitHub Issues](https://github.com/NetbootCommunity/Dotnet-Utility-Cache/issues).
 
 ## License
 
-This project is licensed under [MIT License](https://github.com/NetbootCommunity/Netboot-Cache/blob/main/LICENSE).
+This project is licensed under [MIT License](https://github.com/NetbootCommunity/Dotnet-Utility-Cache/blob/main/LICENSE).

@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Src\Netboot.Cache\Netboot.Cache.csproj" />
+    <ProjectReference Include="..\Src\Netboot.Utility.Cache\Netboot.Utility.Cache.csproj" />
   </ItemGroup>
 
 </Project>

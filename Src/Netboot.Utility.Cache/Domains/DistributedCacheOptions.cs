@@ -2,7 +2,7 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace Netboot.Cache.Domains
+namespace Netboot.Utility.Cache.Domains
 {
     public class DistributedCacheOptions
     {

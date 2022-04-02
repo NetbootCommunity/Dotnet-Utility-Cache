@@ -2,14 +2,14 @@
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Options;
-using Netboot.Cache.Domains;
-using Netboot.Cache.Extensions;
+using Netboot.Utility.Cache.Domains;
+using Netboot.Utility.Cache.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Netboot.Cache.Test
+namespace Netboot.Utility.Cache.Test
 {
     public class DefaultTests
     {

@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Netboot.Cache.Domains
+namespace Netboot.Utility.Cache.Domains
 {
     /// <summary>
     /// Represents a strongly-typed distributed cache

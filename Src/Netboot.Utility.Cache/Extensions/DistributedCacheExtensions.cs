@@ -2,12 +2,12 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
-using Netboot.Cache.Domains;
+using Netboot.Utility.Cache.Domains;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Netboot.Cache.Extensions
+namespace Netboot.Utility.Cache.Extensions
 
 {
     public static class DistributedCacheExtensions

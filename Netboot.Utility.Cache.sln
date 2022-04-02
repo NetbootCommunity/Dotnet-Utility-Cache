@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netboot.Cache.Tests", "Tests\Netboot.Cache.Tests.csproj", "{AE2D7949-78F8-4028-A6A4-70F5835D1D57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netboot.Utility.Cache.Tests", "Tests\Netboot.Utility.Cache.Tests.csproj", "{AE2D7949-78F8-4028-A6A4-70F5835D1D57}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netboot.Cache", "Src\Netboot.Cache\Netboot.Cache.csproj", "{4FBA9CD6-040F-43D4-8F96-7F969800D7A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netboot.Utility.Cache", "Src\Netboot.Utility.Cache\Netboot.Utility.Cache.csproj", "{4FBA9CD6-040F-43D4-8F96-7F969800D7A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netboot.Cache.Memory", "Src\Netboot.Cache.Memory\Netboot.Cache.Memory.csproj", "{F8A7E026-7487-4E54-8D0A-7A3A7C84735C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netboot.Utility.Cache.Memory", "Src\Netboot.Utility.Cache.Memory\Netboot.Utility.Cache.Memory.csproj", "{F8A7E026-7487-4E54-8D0A-7A3A7C84735C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netboot.Cache.Redis", "Src\Netboot.Cache.Redis\Netboot.Cache.Redis.csproj", "{3CF6C2ED-657A-474E-BA05-D0D5690DA93F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netboot.Utility.Cache.Redis", "Src\Netboot.Utility.Cache.Redis\Netboot.Utility.Cache.Redis.csproj", "{3CF6C2ED-657A-474E-BA05-D0D5690DA93F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

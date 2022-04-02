@@ -4,7 +4,7 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Netboot.Cache.Domains
+namespace Netboot.Utility.Cache.Domains
 {
     public class DistributedCache<TKey, TValue> : IDistributedCache<TKey, TValue>
     {

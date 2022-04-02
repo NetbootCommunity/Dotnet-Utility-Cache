@@ -1,7 +1,7 @@
-﻿using Netboot.Cache.Domains;
+﻿using Netboot.Utility.Cache.Domains;
 using System;
 
-namespace Netboot.Cache.Extensions
+namespace Netboot.Utility.Cache.Extensions
 {
     public static class DistributedCacheOptionsExtensions
     {

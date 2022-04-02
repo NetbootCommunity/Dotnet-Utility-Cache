@@ -1,10 +1,10 @@
 ﻿using Microsoft.Extensions.Caching.StackExchangeRedis;
 using Microsoft.Extensions.DependencyInjection;
-using Netboot.Cache.Domains;
-using Netboot.Cache.Extensions;
+using Netboot.Utility.Cache.Domains;
+using Netboot.Utility.Cache.Extensions;
 using System;
 
-namespace Netboot.Cache.Redis
+namespace Netboot.Utility.Cache.Redis
 {
     public static class DistributedCacheExtensions
     {

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Authors>Thomas ILLIET</Authors>
     <Company>NetbootCommunity</Company>
-    <PackageId>Netboot.Cache</PackageId>
+    <PackageId>Netboot.Utility.Cache</PackageId>
     <PackageDescription>Library to quickly and easily add cache to a dotnet application.</PackageDescription>
     <IsPackable>true</IsPackable>
     <PackageIcon>Logo.png</PackageIcon>
